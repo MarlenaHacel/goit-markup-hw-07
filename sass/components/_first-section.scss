@@ -1,0 +1,42 @@
+.first-section {
+  background: getColor('bgd-primary');
+  padding: 0;
+
+  &__bg {
+    background-image: linear-gradient(to bottom, getColor('bdg-image'), getColor('bdg-image')),
+      url(../images/first-section-bg.jpg);
+    background-size: 1600px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__heading {
+    color: getColor('secondary');
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  &__button {
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: getColor('secondary');
+    background: getColor('brand-color');
+    border: none;
+    border-radius: 4px;
+    padding: 10px 41px 10px 42px;
+  }
+}

@@ -1,0 +1,29 @@
+.what-we-do {
+  margin: 0;
+
+  &__list {
+    display: flex;
+  }
+  &__item {
+    display: inline-flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  &__description {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 27px;
+    color: getColor('secondary');
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,28 @@
+.our-strength {
+  font-size: 14px;
+  padding-bottom: 0;
+  &__item {
+    margin: 0 15px;
+  }
+  &__list {
+    list-style-type: none;
+    display: flex;
+  }
+  &__icon {
+    margin-bottom: 30px;
+    display: inline-block;
+    justify-content: center;
+    padding: 25px 100px;
+    width: 270px;
+    height: 120px;
+    background: getColor('bdg-secondary');
+    border-radius: 4px;
+  }
+  &__tittle {
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  &__subtitle {
+    line-height: 1.7;
+  }
+}
